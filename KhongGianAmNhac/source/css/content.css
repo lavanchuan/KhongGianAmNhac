@@ -1,0 +1,145 @@
+body{
+	background: #72ada9;
+	margin: 6em 4em;
+	font-family: "Arial, Times New Roman";
+}
+
+.container{
+}
+
+.container .taskbar{
+	height: 5em;
+	background: yellow;
+	position: fixed;
+	left: 3em;
+	right: 3em;
+	top: 0;
+	z-index: 2;
+}
+
+.container .taskbar img{
+	width: auto;
+	height: 5em;
+}
+
+.container .taskbar .textSearch{
+	background: transparent;
+	position: absolute;
+	right: 20%;
+	height: 30%;
+	width: 50%;
+	top: 0.5%;
+	font-size: 1.5em;
+	padding: 1em;
+	padding-left: 3em;
+	border: none;
+	border-radius: 2em;
+}
+
+.container .taskbar .btnSearch{
+	position: absolute;
+	right: 25%;
+	top: 5%;
+	height: 80%;
+	width: height;
+	background: transparent;
+	border: none;
+}
+
+.container .taskbar .user{
+	position: absolute;
+	top: 5%;
+	height: 80%;
+	width: auto;
+	right: 15%;
+}
+.container .taskbar .name{
+	position: absolute;
+	top: 20%;
+	height: 80%;
+	width: auto;
+	left: 85%;
+	font-size: 1.5em;
+}
+
+.container .content{
+	/*background: yellow;*/
+	position: relative;
+}
+
+.container .content form table{
+	margin: auto;
+	width: 100%;
+	position: relative;
+}
+
+.container .content form table tr td{
+	/*background: green;*/
+	position: relative;
+}
+
+.container .content form table tr td .songBox{
+	margin: auto;
+	width: 340px;
+	height: 20em;
+	position: relative;
+}
+
+.container .content form table tr td .songBox .avatar{
+	width: 100%;
+	height: 100%;
+}
+
+.container .content form table tr td .songBox .icon{
+	width: auto;
+	height: 2em;
+	position: absolute;
+	left: 0.5em;
+}
+
+.container .content form table tr td .songBox .like{
+	top: 0.5em;
+}
+
+.container .content form table tr td .songBox .comment{
+	top: 2.5em;
+}
+
+.container .content form table tr td .songBox .download{
+	top: 4.5em;
+}
+
+.container .content form table tr td .songBox h1{
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+
+.container .content form table tr td .songBox h3{
+	position: absolute;
+	bottom: 5px;
+	right: 20px;
+}
+
+.container .content form table tr td .songBox h1:hover{
+	color: white;
+}
+
+.container .content form table tr td .songBox h3:hover{
+	color: white;
+}
+
+.container .play{
+	text-align: center;
+	background: trasparent;
+	height: 4em;
+	position: fixed;
+	bottom: 0em;
+	right: 2em;
+	left: 2em;
+	z-index: 0;
+}
+
+.container .play audio{
+	width: 80%;
+}
